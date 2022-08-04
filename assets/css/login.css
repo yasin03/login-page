@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sol {
+  background-color: rgb(226, 225, 225);
+  flex: 2;
+  padding: 1rem;
+}
+.return a {
+  text-decoration: none;
+  color: black;
+}
+
+.return a:hover {
+  color: rgb(78, 77, 77);
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  padding: 2rem;
+  text-align: center;
+}
+.login h3{
+ font-size:2rem;
+}
+
+.login input {
+  margin: 0.3rem;
+  background-color: rgb(226, 225, 225);
+  border: none;
+  padding: 0.4rem;
+  border-bottom: 2px solid rgb(193, 192, 192);
+  outline-color: rgb(226, 225, 225);
+}
+
+.login-btn {
+  background-color: purple;
+  color: white;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 5rem;
+  font-size: 1rem;
+}
+
+.login-btn:hover {
+  background-color: rgb(176, 42, 176);
+}
+
+.sag {
+  background-color: chocolate;
+  flex: 3;
+  background-image: url(../img/bg-login.jpg);
+  background-repeat: none;
+  background-size: cover;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.image h1{
+ font-size: 4rem;
+}
+
+.image h5{
+ font-size: 2rem;
+}
